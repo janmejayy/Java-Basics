@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class twoDimenArrays {
+public class StringArray {
 
 	public static void main(String[] args) {
 //takes array name of input and print them on screen

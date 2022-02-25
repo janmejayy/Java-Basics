@@ -1,12 +1,13 @@
 package constructor;
 
 public class DefaultConstructor {
-	 String name;
+	 static String name;
 	 int no;
 	//also known as no arg contructor
-	DefaultConstructor(String name,int no){
-		this.name=name;
-		this.no=no;
+	DefaultConstructor(){
+		name="jay";
+	     
+		no=91;
 		System.out.println("Created default constructor");
 		System.out.println("Default values are: "+name+" "+no);
 		
@@ -15,7 +16,7 @@ public class DefaultConstructor {
 		System.out.println(name+" "+no);
 	}
 	public static void main(String[] args) {
-		DefaultConstructor obj=new DefaultConstructor("janmejay",233);
+		DefaultConstructor obj=new DefaultConstructor();
 		obj.normalMethod();
 		
 
